@@ -8,6 +8,8 @@ public class Ejercicio2_6 : MonoBehaviour
     //Un jugador tiene tres puntuaciones cualesquiera en un videojuego.
     //    Cada una de ellas  representada por un número entero.Desarrolla un programa que muestre las tres puntuaciones y su media.
 
+    //No sé mates 
+
     int eneimgosMuertos = 22;
     int monedas = 120;
     int aldeanosSalvados = 12;
@@ -17,13 +19,13 @@ public class Ejercicio2_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        mediaPuntuacion = (eneimgosMuertos + monedas + aldeanosSalvados) / 3;
+        Debug.Log("Media de Puntuación: " + mediaPuntuacion);
     }
 
     // Update is called once per frame
     void Update()
     {
-        mediaPuntuacion= (eneimgosMuertos+monedas+aldeanosSalvados)/3;
-        Debug.Log("Media de Puntuación: "+ mediaPuntuacion);
+        
     }
 }

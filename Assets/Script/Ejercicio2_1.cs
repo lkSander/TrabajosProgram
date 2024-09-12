@@ -20,9 +20,9 @@ public class Ejercicio2_1 : MonoBehaviour
     bool alumnoRepetidor = false;
     string mensaje = "Escucha Navigating de Twenty One Pilots";
     char letra = 'B';
-    int mayorDeEdad = 40; //No entiendo a qué te refieres... :(
-    float minutos = 8.50f; //¿Esto contaría como ocho minutos y medio? si no se usaría un int.
-    float dias= 2.50f; //¿Esto contaría como dos días y medio? si no se usaría un int.
+    bool mayorDeEdad = true;
+    int minutos = 8; //¿Esto contaría como ocho minutos y medio? si no se usaría un int.
+    int dias= 5; 
     string matriculaCoche = "1800GVW"; //contiene letras y números, además no se usa para operar.
     int contador = 25;
     char tallaCamiseta = 'L';

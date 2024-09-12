@@ -11,37 +11,38 @@ public class Ejercicio2_8 : MonoBehaviour
     //Haz un programa que muestre paso por paso la vida que le va quedando al personaje  hasta el quinto turno. 
 
     float vida = 120, vidaInicial = 120;
-    float veneno = 3;
+    float veneno = 0.03f;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //sigo sin saber matemáticas :(
+
+        Debug.Log("Vida actual: " + vida);
+        Debug.Log("¡Oh,no! Has sido en venenado.");
+        vida = vida - vidaInicial * veneno;
+        veneno = veneno + 0.03f;
+        Debug.Log("Vida actual: " + vida);
+        vida = vida - vidaInicial * veneno;
+        veneno = veneno + 0.03f;
+        Debug.Log("Vida actual: " + vida);
+        vida = vida - vidaInicial * veneno;
+        veneno = veneno + 0.03f;
+        Debug.Log("Vida actual: " + vida);
+        vida = vida - vidaInicial * veneno;
+        veneno = veneno + 0.03f;
+        Debug.Log("Vida actual: " + vida);
+        vida = vida - vidaInicial * veneno;
+        veneno = veneno + 0.03f;
+        Debug.Log("Vida actual: " + vida);
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //sigo sin saber matemáticas :(
-
-        Debug.Log("Vida actual: " + vida);
-        Debug.Log("¡Oh,no! Has sido en venenado.");
-        vida= vidaInicial - ( veneno * 100 / vidaInicial );
-        veneno = veneno + 3;
-        Debug.Log("Vida actual: " + vida);
-        vida = vidaInicial - ( veneno * 100 / vidaInicial );
-        veneno = veneno + 3;
-        Debug.Log("Vida actual: " + vida);
-        vida = vidaInicial - (veneno * 100 / vidaInicial);
-        veneno = veneno + 3;
-        Debug.Log("Vida actual: " + vida);
-        vida = vidaInicial - (veneno * 100 / vidaInicial);
-        veneno = veneno + 3;
-        Debug.Log("Vida actual: " + vida);
-        vida = vidaInicial - (veneno * 100 / vidaInicial);
-        veneno = veneno + 3;
-        Debug.Log("Vida actual: " + vida);
-
+      
     }
 }

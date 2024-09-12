@@ -22,18 +22,18 @@ public class Ejercicio2_5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         Debug.Log("Vidas del Player1: " + vidasPlayer1 + "Vidas del Player2: " + vidasPlayer2 + "Vidas del Player3: " + vidasPlayer3 + "Vidas del Player4: " + vidasPlayer4);
         vidasPlayer2 = vidasPlayer3;
         vidasPlayer3 = vidasPlayer1;
         vidasPlayer1 = vidasPlayer4;
         vidasPlayer4 = vidasInicialPlayer2;
+        Debug.Log("Vidas del Player1: " + vidasPlayer1 + "Vidas del Player2: " + vidasPlayer2 + "Vidas del Player3: " + vidasPlayer3 + "Vidas del Player4: " + vidasPlayer4);
+    }
 
+    // Update is called once per frame
+    void Update()
+    {
+       
 
 
 

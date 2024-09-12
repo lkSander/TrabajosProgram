@@ -17,12 +17,12 @@ public class Ejercicio2_7 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        oro = (3600 * 4) * 7; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        oro = (3600 * 4) * 7; //No sé matemáticas, aprobaba por lástima.
+        
     }
 }

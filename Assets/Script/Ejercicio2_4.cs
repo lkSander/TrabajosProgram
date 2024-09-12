@@ -17,19 +17,19 @@ public class Ejercicio2_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Vidas: " + vidas);
+        vidas = vidas + 77;
+        Debug.Log("Vidas: " + vidas);
+        vidas = vidas - 3;
+        Debug.Log("Vidas: " + vidas);
+        vidas = vidas * 4;
+        Debug.Log("Vidas: " + vidas);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Vidas: " + vidas);
-       vidas = vidas + 77;
-        Debug.Log("Vidas: "+ vidas);
-        vidas = vidas - 3;
-        Debug.Log("Vidas: " + vidas);
-        vidas = vidas * 4;
-        Debug.Log("Vidas: " + vidas);
+        
 
     }
 }
