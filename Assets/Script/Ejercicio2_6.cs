@@ -11,7 +11,7 @@ public class Ejercicio2_6 : MonoBehaviour
     int eneimgosMuertos = 22;
     int monedas = 120;
     int aldeanosSalvados = 12;
-
+    float mediaPuntuacion = 0;
 
 
     // Start is called before the first frame update
@@ -23,6 +23,7 @@ public class Ejercicio2_6 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        mediaPuntuacion= (eneimgosMuertos+monedas+aldeanosSalvados)/3;
+        Debug.Log("Media de Puntuación: "+ mediaPuntuacion);
     }
 }
