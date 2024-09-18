@@ -154,6 +154,8 @@ GameObject:
   - component: {fileID: 519420053}
   - component: {fileID: 519420052}
   - component: {fileID: 519420051}
+  - component: {fileID: 519420055}
+  - component: {fileID: 519420054}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -496,6 +498,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5245cff4778f720429cde115c8427075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &519420054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515ead14054f97c43ba8c214a2e382da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 0
+  num2: 0
+--- !u!114 &519420055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f082fba88afb1499b3f5a551ab1519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaJugador1: 0
+  vidaJugador2: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
