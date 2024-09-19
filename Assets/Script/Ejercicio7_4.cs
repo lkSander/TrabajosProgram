@@ -2,20 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio7_2 : MonoBehaviour
+public class Ejercicio7_4 : MonoBehaviour
 {
-   //Programa que muestre los números del 1 al 100 utilizando un bucle for. 
+    // Start is called before the first frame update
+    //Programa que muestre los números del 100 al 1 utilizando la estructura for. 
+
     void Start()
     {
-        for (int i = 1; i < 100; i++)
+        for (int i = 100; i < 0; i--)
         {
             Debug.Log(i);
-            
-
         }
-
-
-        
     }
 
     // Update is called once per frame
