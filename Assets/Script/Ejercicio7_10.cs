@@ -15,49 +15,56 @@ public class Ejercicio7_10 : MonoBehaviour
     int numContar = 0;
     void Start()
     {
+
+
+        if (num1 < 0)
+        {
+            Debug.Log("El primer número es positivo");
+        }
+        else
+        {
+            Debug.Log("El primer número es negativo");
+        }
+        if (num2 < 0)
+        {
+            Debug.Log("El segundo número es positivo");
+        }
+        else
+        {
+            Debug.Log("El segundo número es negativo");
+        }
+
+        if (num1 % 2 == 0)
+        {
+            Debug.Log("El primer número es par");
+
+        }
+        else
+        {
+            Debug.Log("El primer número es impar");
+
+        }
+        if (num2 % 2 == 0)
+        {
+
+            Debug.Log("El segundo número es par");
+        }
+        else
+        {
+            Debug.Log("El segundo número es impar");
+
+        }
+
+
         if (num1>num2)
 
         {
 
-            if (num1 % 2 == 0)
-            {
-                Debug.Log("El primer número es par");
-                
-            }
-            else
-            {
-                Debug.Log("El primer número es impar");
-
-            }
-            if(num2 % 2 == 0)
-            {
-
-                Debug.Log("El segundo número es par");
-            }
-            else
-            {
-                Debug.Log("El segundo número es impar");
-
-            }
-
-
-
             for (int numContar = num2; num2 >= num1; numContar++)
             {
 
-               
 
-
-
-
-
-
-
-
-
-
-
-
+                Debug.Log(numContar);
 
 
 
@@ -66,6 +73,29 @@ public class Ejercicio7_10 : MonoBehaviour
 
 
 
+        }
+        
+        else if (num1<num2)
+
+        {
+
+            for (int numContar = num1; num1 >= num2; numContar++)
+            {
+
+
+                Debug.Log(numContar);
+
+
+
+
+            }
+
+
+
+        }
+        else
+        {
+            Debug.Log(num1);
         }
 
 
