@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEditor.PlayerSettings;
 
-public class jercicio7_8 : MonoBehaviour
+public class Ejercicio7_8 : MonoBehaviour
 {
     // Start is called before the first frame update
     // Programa que lea dos números serializados y muestre los números pares entre ellos.
