@@ -10,9 +10,13 @@ public class Ejercicio6_1 : MonoBehaviour
     bool x = true;
     bool y = false;
     bool z= false;
-
-    //(x&&y)|| (x&&z) 
-
+    
+    //a) True
+    //b)True
+    //c)True
+    //d)False
+    //e)True
+    //f)
 
 
 
