@@ -19,19 +19,7 @@ public class Ejercicio6_1 : MonoBehaviour
     //e)True
     //f)true
 
-    //6.2Si W, X, Y y Z son condiciones con valores W = false, X = true, Y = true, Z = false,  determina el valor de las siguientes expresiones lógicas: 
-
-    bool x2 = true;
-    bool y2= true;
-    bool w = false;
-    bool z2 = false;
-
-    //a) 
-    //b)
-    //c)
-    //d)
-    //e)
-    //f)
+    
 
 
 

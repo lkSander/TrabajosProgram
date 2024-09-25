@@ -28,8 +28,8 @@ public class SistemaVida : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+   float RecibirCura(float cantidad)
     {
-        
-    }
+
+    return cantidad; }
 }
