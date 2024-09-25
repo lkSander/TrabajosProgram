@@ -17,14 +17,14 @@ public class SistemaVida : MonoBehaviour
 
     private float vidaActual;
 
-    public float VidaInicial { get => vidaInicial; set => vidaInicial = value; }
+    
 
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        vidaActual = vidaInicial;
     }
 
     // Update is called once per frame
