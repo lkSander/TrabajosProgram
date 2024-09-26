@@ -29,11 +29,11 @@ public class Ejercicio7_13 : MonoBehaviour
     bool IndicadorNumPrimo(int num)
     {
 
-        if(num%2==1 && num%5==1)
+        if(num%2==1 && num%5==1 && num%3==1)
         {
             return true;
         }
-        else if (num % 2 == 0 || num % 5 == 0)
+        else if (num % 2 == 0 || num % 5 == 0 || num % 3== 0)
         {
 
             return false;
