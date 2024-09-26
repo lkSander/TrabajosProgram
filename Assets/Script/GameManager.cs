@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
+    //8.1 Referencia a los personajes desde el GameManager y genera en este un método nuevo, PrepararPersonajes(), el cual será ejecutado al pulsar Espacio.
+
     // Start is called before the first frame update
     [SerializeField] private Personaje Link;
     [SerializeField] private Personaje Zelda;
@@ -11,7 +14,11 @@ public class GameManager : MonoBehaviour
     private bool calculoHecho = false;
     void Start()
     {
-        PrepararPersonajes();
+        Input.GetKeyDown(KeyCode.Escape);
+        {
+            PrepararPersonajes();
+        }
+        
     }
 
     // Update is called once per frame
