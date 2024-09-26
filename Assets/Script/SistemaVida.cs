@@ -25,13 +25,13 @@ public class SistemaVida : MonoBehaviour
     void Start()
     {
         vidaActual = vidaInicial;
-        vidaActual= RecibirCura(4);
+       vidaActual= RecibirCura(4);
         vidaActual= RecibirDanho(8);
     }
 
     // Update is called once per frame
-   float RecibirCura(float cantidad)
-    {
+   public float RecibirCura(float cantidad)
+   {
 
         if(cantidad  < 0)
         {
@@ -43,9 +43,9 @@ public class SistemaVida : MonoBehaviour
         }
         
     return vidaActual; 
-    }
+   }      
 
-    float RecibirDanho(float danho)
+    public float RecibirDanho(float danho)
     {
         vidaActual = vidaInicial - danho;
         if( vidaActual>=0)
